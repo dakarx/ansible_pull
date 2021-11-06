@@ -1,0 +1,11 @@
+---
+ - hosts: localhost
+   connection: local
+   roles:
+      - common
+   become: true
+ 
+   tasks:
+   - name: install htop
+     package:
+       name: htop
