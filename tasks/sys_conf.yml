@@ -44,7 +44,7 @@
   notify: restart rsyslogd    
 
 
-- name: ensure /etc/bash.bashrc launches neofetch
+- name: ensure /etc/bash.bashrc launches neofetch at login
   lineinfile:
     path: /etc/bash.bashrc
     state: present
