@@ -18,6 +18,7 @@
       - tmux
       - vim
       - openssh-server
+      - neofetch
   when: (ansible_facts['os_family'] == "RedHat" )
 
 
